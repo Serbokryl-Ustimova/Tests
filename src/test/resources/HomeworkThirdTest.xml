@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite3" verbose="1">
+    <test name="package1">
+        <parameter name="url" value="https://lms.ithillel.ua"/>
+        <parameter name="browser" value="safari"/>
+
+        <classes>
+            <class name="ua.hillel.mvn.testNg.HomeworkThirdTest"/>
+        </classes>
+    </test>
+
+    <test name="package2">
+        <parameter name="url" value="https://ithillel.ua"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="ua.hillel.mvn.testNg.HomeworkThirdTest"/>
+        </classes>
+    </test>
+</suite>
+
